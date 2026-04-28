@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Akan Name Generator</title>
   <link rel="stylesheet" href="styles.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 </head>
+
 <body>
 
   <div class="background"></div>
   <div class="pattern"></div>
+
   <div class="container">
-    
+
     <div class="image-section">
-      <img src="Heroes III – Hyperrealistic Unit Concepts.jpg" alt="Ghanaian character" 
-      class="character">
+      <img src="Heroes III – Hyperrealistic Unit Concepts.jpg" class="character">
     </div>
 
     <div class="form-section">
@@ -21,7 +25,7 @@
       <p>Discover your African name inspired by Ghanaian culture</p>
 
       <form id="akanForm">
-        <input type="day" id="day" placeholder="Day (1-31)" required>
+        <input type="number" id="day" placeholder="Day (1-31)" required>
         <input type="number" id="month" placeholder="Month (1-12)" required>
         <input type="number" id="year" placeholder="Year" required>
 
@@ -31,14 +35,15 @@
           <option value="female">Female</option>
         </select>
 
-        <button type="submit"> Reveal my Name:)</button>
+        <button type="submit">Reveal my Name :)</button>
       </form>
 
       <h2 id="result"></h2>
     </div>
-         id="result"
+
   </div>
 
   <script src="script.js"></script>
+
 </body>
 </html>
