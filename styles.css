@@ -59,20 +59,24 @@ width: 100%;
 padding: 10px;
 margin: 10px 0;
 border: 1px solid #ccc;
-border-radius: 8px;
+border-radius: 10px;
 }
 
 button {
-background-color: #4CAF50;
-color: white;
+background-color:#fcbf49;
+color: black;
 border: none;
 cursor: pointer;
 width: 100%;
 padding: 10px;
 border-radius: 10px;
-
+font-weight: bold;
+transition: 0.3s;
 }
  
 button:hover {
-    background-color: #4c82af;
+    background-color: #b17702;
+  transform: scale(1.05); 
 }
+
+
