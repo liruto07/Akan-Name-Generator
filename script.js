@@ -23,23 +23,14 @@ document.getElementById("akanForm").addEventListener("submit", function (e) {
   let YY = year % 100;
 
   // Day-of-week calculation (stable version)
-  let d =
-    Math.floor(
-      CC / 4 - 2 * CC - 1 + (5 * YY) / 4 + (26 * (month + 1)) / 10 + day,
-    ) % 7;
-
+let date = new Date(year, month - 1, day);
+let d = date.getDay();
   // Fix negative values
   if (d < 0) {
-    d = d + 7;
+    d += 7;
   }
 
   d = Math.floor(d);
-
-  // Safety check
-  if (isNaN(d) || d < 0 || d > 6) {
-    alert("Something went wrong with the calculation. Please try again.");
-    return;
-  }
 
   // Days of the week
   let days = [
