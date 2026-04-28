@@ -22,15 +22,16 @@ How It Works
 
 
 
-Live Site
+# Live Site
+https://liruto07.github.io/Akan-Name-Generator/
 
 
 ---
 
- Author
+ # Author:
 Linda Ruto
 
 ---
 
-## 📜 License
+##  License
 This project is open source and free to use.
