@@ -2,21 +2,50 @@ body{
    margin: 0;
    font-family: "poppins", sans-serif;
    overflow: hidden;
+   color: white;
 }
 
 .background{
-    position: absolute;
-    top: 0;
-    left: 0;
+    position:fixed;
     width: 100%;
     height: 100%;
-    background:linear-gradient(270deg,#ff6ec4,#7873f5,#42e695);
+    background:linear-gradient(270deg,#d62828, #f77f00, #fcbf49, #2a9d8f);
     background-size: 600% 600%;
     animation: gradientMove 2s ease infinite;
-    filter: blur(5px);
-    z-index: -1;
+    z-index: -2;
 
 }
+
+.pattern{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image:  repeating-linear-gradient(
+    45deg,
+    rgba(0,0,0,0.2) 0px,
+    rgba(0,0,0,0.2) 10px,
+    transparent 10px,
+    transparent 20px
+  );
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 50px;
+}
+
+.character{
+  width: 260px;
+  animation: float 3s ease-in-out infinite;
+  border-radius: 20px;
+}
+
+
 
 input, select, button {
 display: block;
