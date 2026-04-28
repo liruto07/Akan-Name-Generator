@@ -45,15 +45,21 @@ body{
   border-radius: 20px;
 }
 
+.form-section{
+    background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 20px;
+  width: 320px;
+  text-align: center;
+  border: 2px solid #fcbf49;
+}
 
-
-input, select, button {
-display: block;
+input, select {
 width: 100%;
 padding: 10px;
 margin: 10px 0;
 border: 1px solid #ccc;
-border-radius: 5px;
+border-radius: 8px;
 }
 
 button {
@@ -61,6 +67,10 @@ background-color: #4CAF50;
 color: white;
 border: none;
 cursor: pointer;
+width: 100%;
+padding: 10px;
+border-radius: 10px;
+
 }
  
 button:hover {
