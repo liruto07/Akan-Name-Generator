@@ -140,10 +140,8 @@ button:hover {
   background: linear-gradient(90deg, #fcbf49, #ff6b6b);
   color: black;
   font-weight: bold;
-  position: relative;
-  bottom: 0;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 30px;
 }
    
 
