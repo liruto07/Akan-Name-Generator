@@ -137,11 +137,11 @@ button:hover {
 .footer {
   text-align: center;
   padding: 15px;
-  background: linear-gradient(90deg, #fcbf49, #ff6b6b);
   color: black;
   font-weight: bold;
   width: 100%;
   margin-top: 30px;
+  background-color: linear-gradient(90deg, #008751, #fcd116, #ce1126);
 }
    
 
