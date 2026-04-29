@@ -33,5 +33,8 @@ Linda Ruto
 
 ---
 
-##  License
-This project is open source and free to use.
+# License
+
+© 2026 Linda Ruto. All rights reserved.
+
+This project and its source code may not be used, copied, modified, or distributed without explicit permission from the author.
